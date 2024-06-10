@@ -19,7 +19,6 @@ const Products = () => {
   const allgInfoRef = useRef();
   useEffect(() => {
     if (postHook.data) {
-      console.log("rnn");
       setName("");
       setDesc("");
       setAllgInfo("");
@@ -136,9 +135,9 @@ const Products = () => {
                   Please Enter a Allergen Info.
                 </div>
               </div>
-              <div class="d-flex justify-content-between">
+              <div className="d-flex justify-content-between">
                 <div>
-                  <button class="btn btn-primary" type="submit">
+                  <button className="btn btn-primary" type="submit">
                     {postHook.loading ? <Spinner /> : "Add Product"}
                   </button>
                 </div>

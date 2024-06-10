@@ -1,0 +1,18 @@
+.sortable {
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sortable img {
+    display: block;
+  }
+  
+  .sortable:hover {
+    background-color: #007bff;
+  }
+  
+  .sorted {
+    background-color: #0056b3;
+  }
+  
